@@ -1,3 +1,30 @@
-.App {
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New' Courier monospace;
+  color: white;
+}
+
+h1 {
   text-align: center;
+  font-size: 50px;
+}
+
+.planetCard {
+  background-color: rgba(0, 0, 0, 0.329);
+  border: 5px solid rgb(107, 107, 107);
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+}
+
+.infoCard {
+  background-color: rgba(0, 0, 0, 0.329);
+  border: 5px solid rgb(107, 107, 107);
+  border-radius: 3px;
+}
+
+body {
+  background-blend-mode: luminosity;
+  background-color: rgb(33, 104, 129);
+  background-image: url('./images/background.png');
 }
